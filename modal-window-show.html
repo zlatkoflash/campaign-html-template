@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/datepicker.css" />
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/jquery.mCustomScrollbar.css" >
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap-datepicker.js"></script>
+        <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script type="text/javascript" src="js/tools.js"></script>
+        <!--[if lt IE 9]>
+          <script src="js/html5.js" type="text/javascript"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <!-- Header -->
+                <div class="span12">
+                    <header id="top-header" class="span12">
+                        <div class="logo"><a href="#">ZenClerk</a></div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                        </ul>
+                    </header>
+                </div>
+                <!-- Left fixed column -->
+                <aside class="fixed-column">
+                    <nav class="left-nav">
+                        <ul>
+                            <li><a href="#" class="nav-chat">Chat</a></li>
+                            <li><a href="#" class="nav-stats">Stats</a></li>
+                            <li><a href="#" class="nav-settings">Settings</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <!-- Main Content wrapper -->
+                <div id="content-wrap">
+                    <!-- Left inner column -->
+                    <aside id="left-inner-column">
+                        <!-- main navigation -->
+                        <nav id="main-navigation">
+                            <h3>Navigation</h3>
+                            <ul>
+                                <li><a href="#modal-content" data-toggle="modal">Modal window</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+
+                    <!-- Right main inner column -->
+                    <div id="main-inner-column">
+                        <!-- New plan Template -->
+                        <h1 class="page-title">Edit Plan 'Winter Plan5'</h1>
+
+                        <ul class="breadcrumb">
+                            <li><a href="#">Home</a> <span class="divider">/</span></li>
+                            <li><a href="#">Plans</a> <span class="divider">/</span></li>
+                            <li class="active">New</li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <ul id="top-tabs-inner" class="nav nav-tabs">
+                            <li class="active"><a href="#list-plans-tab" data-toggle="tab"><span class="list-tab-icon"></span>List</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <!-- List Plans -->
+                            <div class="tab-pane active in fade" id="list-plans-tab">
+                                <!-- List plan Template -->
+                                <div class="table-scroller">
+                                    <table id="plans-table" class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Campaign Title</th>
+                                                <th>Term</th>
+                                                <th>Best Plan</th>
+                                                <th>CVR</th>
+                                                <th>Created_at</th>
+                                                <th>&nbsp;</th>
+                                                <th>&nbsp;</th>
+                                                <th>&nbsp;</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Winter Cupon 6</td>
+                                                <td>2013 02/03~02/05</td>
+                                                <td>350yenoff2</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-edit"></span></td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="plan-delete"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Cupon 6</td>
+                                                <td>2013 02/03~02/05</td>
+                                                <td>350yenoff2</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td>finished</td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="plan-delete"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Cupon 6</td>
+                                                <td>2013 02/03~02/05</td>
+                                                <td>350yenoff2</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td>finished</td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="plan-delete"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Cupon 6</td>
+                                                <td>2013 02/03~02/05</td>
+                                                <td>350yenoff2</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td>finished</td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="plan-delete"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Cupon 6</td>
+                                                <td>2013 02/03~02/05</td>
+                                                <td>350yenoff2</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-edit"></span></td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="plan-delete"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Cupon 6</td>
+                                                <td>2013 02/03~02/05</td>
+                                                <td>350yenoff2</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-edit"></span></td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="plan-delete"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Cupon 6</td>
+                                                <td>2013 02/03~02/05</td>
+                                                <td>350yenoff2</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-edit"></span></td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="plan-delete"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Cupon 6</td>
+                                                <td>2013 02/03~02/05</td>
+                                                <td>350yenoff2</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-edit"></span></td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="plan-delete"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Cupon 6</td>
+                                                <td>2013 02/03~02/05</td>
+                                                <td>350yenoff2</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-edit"></span></td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="plan-delete"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Cupon 6</td>
+                                                <td>2013 02/03~02/05</td>
+                                                <td>350yenoff2</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-edit"></span></td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="plan-delete"></span></td>
+                                            </tr>
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- Add New Plan -->
+                            <div class="tab-pane in fade" id="add-new-plan-tab">
+                                <!-- List plan Template -->
+                                <div class="table-scroller2">
+                                    <!-- edit fields -->
+                                    <form class="form-inline edit-form-data" method="post">
+                                        <div class="pad-top"></div>
+                                        <div class="form-row-horizontal">
+                                            <label class="radio inline first-lb" for="campaign-title">Campaign Title</label>
+                                            <input type="text" id="campaign-title"  >
+                                        </div>
+                                        <div class="form-row-horizontal">
+                                            <label class="radio inline first-lb pad-more" for="optionsRadios1">Term</label>
+                                            <label class="radio inline">
+                                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                                Instantly
+                                            </label>
+                                            <label class="radio inline">
+                                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" checked>
+                                                Sheduled
+                                            </label>
+                                        </div>
+                                        <div class="form-row-horizontal">
+                                            <label class="lab-datestart pad-more2" for="datepicker1">From</label>
+                                            <input type="text" id="datepicker1" class="input-smallx">
+                                            <input type="text" id="time-hrs" class="input-xmini space-left" /> : <input type="text" id="time-minutes" class="input-xmini" />
+
+                                            <label class="lab-dateend" for="datepicker2">To</label>
+                                            <input type="text" id="datepicker2" class="input-smallx">
+                                            <input type="text" id="time-hrs2" class="input-xmini space-left" /> : <input type="text" id="time-minutes2" class="input-xmini" />
+                                        </div>
+
+                                        <div class="form-row-horizontal f-left">
+                                            <label class="control-label" for="ui-options">*Option</label>
+                                            <div class="select-wrap half-width">
+                                                <span class="select-value-holder"></span>
+                                                <select id="ui-options">
+                                                    <option value="">Choose campaign you want to copy</option>
+                                                    <option value="Coupon 2">campaign 1</option>
+                                                    <option value="Coupon 3">campaign 2</option>
+                                                    <option value="Coupon 4">campaign 3</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <table class="table table-striped plans-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Base Plan</th>
+                                                <th>Campaign UI</th>
+                                                <th>Query</th>
+                                                <th>LatestCVR</th>
+                                                <th>Created_at</th>
+                                                <th>&nbsp;</th>
+                                                <th>&nbsp;</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Winter Plan5</td>
+                                                <td>350offplan3</td>
+                                                <td>far from conversion</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="label label-success">ADD</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Plan5</td>
+                                                <td>350offplan3</td>
+                                                <td>far from conversion</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="label label-important">REMOVE</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Plan5</td>
+                                                <td>350offplan3</td>
+                                                <td>far from conversion</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="label label-success">ADD</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Plan5</td>
+                                                <td>350offplan3</td>
+                                                <td>far from conversion</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="label label-important">REMOVE</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Plan5</td>
+                                                <td>350offplan3</td>
+                                                <td>far from conversion</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="label label-success">ADD</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Plan5</td>
+                                                <td>350offplan3</td>
+                                                <td>far from conversion</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="label label-important">REMOVE</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Plan5</td>
+                                                <td>350offplan3</td>
+                                                <td>far from conversion</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="label label-success">ADD</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Winter Plan5</td>
+                                                <td>350offplan3</td>
+                                                <td>far from conversion</td>
+                                                <td>6.5%</td>
+                                                <td>2013 02/03 18:45</td>
+                                                <td><span class="plan-info"></span></td>
+                                                <td><span class="label label-important">REMOVE</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Save Cancel buttons -->
+                                <div class="button-bar">
+                                    <button class="btn btn-primary" type="button"><span class="check-mark">Save</span></button>
+                                    <button class="btn" type="button"><span class="cancel-mark">Cancel</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer -->
+                <footer id="f-bottom"> </footer>
+            </div><!-- row-fluid end -->
+        </div>
+
+        <!-- Modal -->
+        <div id="modal-content" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="border-wrap">
+                <h3>Show '350off5Plan'</h3>
+                <div class="modal-body2 less-height">
+                    <!-- New plan form elements -->
+                    <div class="form-elements">
+
+                        <div class="form-row wrapped">
+                            <label class="control-label" for="inputUISettings">UI setting</label>
+                            <div class="select-wrap">
+                                <span class="select-value-holder"></span>
+                                <select id="inputUISettings">
+                                    <option value="Coupon">Coupon</option>
+                                    <option value="Coupon 2">Coupon 2</option>
+                                    <option value="Coupon 3">Coupon 3</option>
+                                    <option value="Coupon 4">Coupon 4</option>
+                                </select>
+                            </div>
+
+
+                        </div>
+                        <div class="form-row">
+                            <div class="input-row">
+                                <div class="radio-wrapper plain-design">
+                                    <label class="radio">
+                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                        350off5 design
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="clearfix"></div>
+                        <!-- square border element with image inside -->
+                        <div class="image-placeholder plased-top">
+                            <img src="images/image-placeholder.jpg" alt="placeholder" class="img-placeholder" />
+                        </div>
+                    </div>
+                    <div class="form-row radioGroup">
+                        <label class="control-label" for="q1">Query</label>
+                        <div class="input-row">
+                            <label class="radio">
+                                <input type="radio" name="query" id="q1" value="option1" checked>
+                                far from conversion
+                            </label>
+                        </div>
+
+                    </div>                
+                </div>
+
+            </div>
+
+            <img src="images/close-button.jpg" class="close-but" alt="close window" data-dismiss="modal" aria-hidden="true" >
+        </div>
+
+
+
+    </body>
+</html>
